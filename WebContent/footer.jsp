@@ -2,10 +2,13 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
+
+<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
+
 
 <body>
 
@@ -13,8 +16,6 @@
 	<p>&copy; WebMarket</p>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
 
 </body>
 </html>

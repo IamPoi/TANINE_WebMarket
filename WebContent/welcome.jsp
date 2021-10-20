@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html>
 
+<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 
 <head>
 
@@ -11,7 +13,6 @@
 
 
 <title>Insert title here</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
 
 
 </head>
@@ -26,10 +27,16 @@
 		String str2 = "Wlecome to Web Market";
 	%>
 	
-	<h1> <%=str1 %></h1>
-	<h3> <%=str2 %></h3>
+	<div class = "jumbotron">
+		<div class = "container">
+			<h1 class = "display-3"> <%=str1 %></h1>
+		</div>
+	</div>
 	
-	접속 시간 <%=new Date() %>
+	<div class= "container">
+		<div class= "text-center">
+			<h3> <%=str2 %></h3>
+			접속 시간 <%=new Date() %>
 	
 	<%!
 		int pageCount = 0;
@@ -43,12 +50,19 @@
 	%>
 	
 	<h2> 사이트 방문 <%=pageCount %>번째 </h2>
+			
+				
+		</div>
+	</div>
+	
+	
+	
 	
 	<%@include file = "footer.jsp" %>
-	
+<!-- 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script> -->
 
 </body>
 </html>
